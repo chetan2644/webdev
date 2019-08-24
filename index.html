@@ -1,0 +1,554 @@
+<html>
+    <head>
+        <title>
+            BoomDeal
+        </title>
+        <link rel =stylesheet href="C:\Users\MTX\Desktop\webDev\style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        article{
+           // height: 220px;
+            width: 300px;
+            background-color: rgb(92, 43, 43);
+            margin-top: 20px;
+            margin-bottom:10px;
+            
+        }
+        body{
+            background-color: whitesmoke;
+        }
+        .footer__Styling {
+  // position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 200px;
+   background-color: black;
+  color: white;
+   text-align: center;
+   padding-top:130px;
+}
+img{
+    padding: 0px;
+    
+}
+        
+</style>
+    </head>
+    <body>
+        
+        
+            <div class="slds-context-bar">
+                <div class="slds-context-bar__primary">
+                <div class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-no-hover">
+                <div class="slds-context-bar__icon-action">
+                <button class="slds-button slds-icon-waffle_container slds-context-bar__button" title="Description of the icon when needed">
+                <span class="slds-icon-waffle">
+                <span class="slds-r1"></span>
+                <span class="slds-r2"></span>
+                <span class="slds-r3"></span>
+                <span class="slds-r4"></span>
+                <span class="slds-r5"></span>
+                <span class="slds-r6"></span>
+                <span class="slds-r7"></span>
+                <span class="slds-r8"></span>
+                <span class="slds-r9"></span>
+                </span>
+                <span class="slds-assistive-text">Open App Launcher</span>
+                </button>
+                </div>
+                <span class="slds-context-bar__label-action slds-context-bar__app-name">
+                <span class="slds-truncate" title="App Name">BoomDeal</span>
+                </span>
+                </div>
+                </div>
+                <nav class="slds-context-bar__secondary" role="navigation">
+                <ul class="slds-grid">
+                <li class="slds-context-bar__item slds-is-active">
+                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+                <span class="slds-assistive-text">Current Page:</span>
+                <span class="slds-truncate" title="Home">Home</span>
+                </a>
+                </li>
+                <li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click">
+                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+                <span class="slds-truncate" title="Menu Item">Category</span>
+                </a>
+                <div class="slds-context-bar__icon-action slds-p-left_none">
+                <button class="slds-button slds-button_icon slds-button_icon slds-context-bar__button" aria-haspopup="true" title="Open menu item submenu">
+                <svg class="slds-button__icon" aria-hidden="true">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevrondown"></use>
+                </svg>
+                <span class="slds-assistive-text">Open menu item submenu</span>
+                </button>
+                </div>
+                <div class="slds-dropdown slds-dropdown_right">
+                <ul class="slds-dropdown__list" role="menu">
+                <li class="slds-dropdown__item" role="presentation">
+                <a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                <span class="slds-truncate" title="Main action">
+                <svg class="slds-icon slds-icon_x-small slds-icon-text-default slds-m-right_x-small" aria-hidden="true">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+                </svg>Main action</span>
+                </a>
+                </li>
+                <li class="slds-dropdown__header slds-has-divider_top-space" role="separator">
+                <span>Menu header</span>
+                </li>
+                <li class="slds-dropdown__item" role="presentation">
+                <a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                <span class="slds-truncate" title="Menu Item One">Todays Deal</span>
+                </a>
+                </li>
+                <li class="slds-dropdown__item" role="presentation">
+                <a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                <span class="slds-truncate" title="Menu Item Two">Orders</span>
+                </a>
+                </li>
+                <li class="slds-dropdown__item" role="presentation">
+                <a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                <span class="slds-truncate" title="Menu Item Three">Customer Service</span>
+                </a>
+                </li>
+                </ul>
+                </div>
+                </li>
+                <li class="slds-context-bar__item">
+                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+                <span class="slds-truncate" title="Menu Item">Todays Deal</span>
+                </a>
+                </li>
+                <li class="slds-context-bar__item">
+                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+                <span class="slds-truncate" title="Menu Item">Orders</span>
+                </a>
+                </li>
+                <li class="slds-context-bar__item">
+                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+                <span class="slds-truncate" title="Menu Item">Customer Service</span>
+                </a>
+                </li>
+                <li class="slds-context-bar__item">
+                    <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+                    <span class="slds-truncate" title="Menu Item"><div class="slds-form-element">
+                   
+                        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
+                        <svg class="slds-icon slds-input__icon slds-input__icon_right slds-icon-text-default" aria-hidden="true">
+                        <use xlink:href="C:\Users\MTX\Desktop\webDev\symbols.svg#search"></use>
+                        </svg>
+                        <input type="text" id="text-input-id-1" placeholder="Search" class="slds-input" />
+                        </div>
+                        </div>
+                        </span>
+                    </a>
+                    </li>
+                    <li><button class="slds-button slds-button_outline-brand">Search</button></li>
+                </ul>
+                </nav>
+                </div>
+                <!--search bar below navbar-->
+                
+                
+                <!--main body part-->
+                <br>
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col">
+                    <span>
+                        <article class="slds-card" >
+                            <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                           
+                           
+                            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                            </svg>
+                            <span class="slds-assistive-text">account</span>
+                            </span>
+                            </div>
+                            <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                            <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                            <span><img src="C:\Users\MTX\Desktop\webDev\clothing.jpg" style="border-radius:50%"> </span>
+                            
+                            </a>
+                            </h2>
+                            </div>
+                            </header>
+                            </div>
+                            <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Fashion-40% to 70%off.</b>
+                            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fugiat jala ele dobio nabi qas lpo as sf alas a qui dolore sapiente iste quia quidem commodi, at soluta veritatis vero similique, sunt ipsum ipsam minima cum, ea non vel?</div>
+                            <footer class="slds-card__footer"style="height:100px">
+                            <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                            <span class="slds-assistive-text">Salesforce card</span>
+                            </a>
+                            </footer>
+                            </article>   
+                    </span>
+                    </div>
+                    <div class="slds-col">
+                    <span>
+                        <article class="slds-card" stylee=""
+                            background-color: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+                          >
+                            <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                           
+                           
+                            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                            </svg>
+                            <span class="slds-assistive-text">account</span>
+                            </span>
+                            </div>
+                            <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                            <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                            <span><img src="C:\Users\MTX\Desktop\webDev\gadgets.jpg"> </span>
+                            
+                            </a>
+                            </h2>
+                            </div>
+                            </header>
+                            </div>
+                            <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Electronics & Gadgets-30% off.</b>
+                            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque sunt laborum sequi cum consequuntur minus magni, velit rerum laudantium inventore omnis nisi, assumenda ex. Ad quisquam illo impedit corporis.</div>
+                            <footer class="slds-card__footer"style="height:100px">
+                            <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                            <span class="slds-assistive-text">Salesforce card</span>
+                            </a>
+                            </footer>
+                            </article>
+                    </span>
+                    </div>
+                    <div class="slds-col">
+                    <span>
+                        <article class="slds-card">
+                            <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                           
+                           
+                            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                            </svg>
+                            <span class="slds-assistive-text">account</span>
+                            </span>
+                            </div>
+                            <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                            <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                            <span><img src="C:\Users\MTX\Desktop\webDev\kitchen.jpg"> </span>
+                            
+                            </a>
+                            </h2>
+                            </div>
+                            </header>
+                            </div>
+                            <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Groceries-10% cashback.</b>
+                            <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, similique accusamus! Obcaecati non dolore libero dignissimos doloremque, dolores cupiditate et magni eius amet, ratione asperiores neque ullam enim facilis est!</div>
+                            <footer class="slds-card__footer"style="height:100px">
+                            <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                            <span class="slds-assistive-text">Salesforce card</span>
+                            </a>
+                            </footer>
+                            </article>
+                    </span>
+                    </div>
+                    <div class="slds-col">
+                    <span>
+                        <article class="slds-card">
+                            <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                           
+                           
+                            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                            </svg>
+                            <span class="slds-assistive-text">account</span>
+                            </span>
+                            </div>
+                            <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                            <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                            <span><img src="C:\Users\MTX\Desktop\webDev\books.jpg"> </span>
+                            
+                            </a>
+                            </h2>
+                            </div>
+                            </header>
+                            </div>
+                            <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Entertainment & Books</b>
+                            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sapiente facilis, mollitia assumenda sit soluta! Saepe maxime, totam tempora asperiores repellat labore obcaecati quas voluptates beatae commodi omnis fuga recusandae?</div>
+                            <footer class="slds-card__footer"style="height:100px">
+                            <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                            <span class="slds-assistive-text">Salesforce card</span>
+                            </a>
+                            </footer>
+                            </article>
+                    </span>
+                    </div>
+                    </div>
+                    <div class="slds-grid slds-grid_vertical">
+                        <div class="slds-col">
+                          <span> </span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="slds-grid slds-gutters">
+                        <div class="slds-col">
+                        <span>
+                            <article class="slds-card">
+                                <div class="slds-card__header slds-grid">
+                                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                               
+                               
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                                <span class="slds-assistive-text">account</span>
+                                </span>
+                                </div>
+                                <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                                <span><img src="C:\Users\MTX\Desktop\webDev\cosmetics.jpg"> </span>
+                                
+                                </a>
+                                </h2>
+                                </div>
+                                </header>
+                                </div>
+                                <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Beauty & Makeup.</b>
+                                <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ad doloribus optio libero, corporis fugit eligendi possimus! Odit perspiciatis, maiores earum explicabo recusandae quidem reiciendis, sed accusantium necessitatibus, laborum atque!</div>
+                                <footer class="slds-card__footer"style="height:100px">
+                                <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                                <span class="slds-assistive-text">Salesforce card</span>
+                                </a>
+                                </footer>
+                                </article>   
+                        </span>
+                        </div>
+                        <div class="slds-col">
+                        <span>
+                            <article class="slds-card">
+                                <div class="slds-card__header slds-grid">
+                                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                               
+                               
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                                <span class="slds-assistive-text">account</span>
+                                </span>
+                                </div>
+                                <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                                <span><img src="C:\Users\MTX\Desktop\webDev\sports.jpg"> </span>
+                                
+                                </a>
+                                </h2>
+                                </div>
+                                </header>
+                                </div>
+                                <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Sports Equipment-30% & above.</b>
+                                <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti hic minus assumenda consequatur velit molestiae, ut obcaecati, architecto magnam mollitia illum unde nemo. Dolore esse quod reprehenderit nihil accusantium aut?</div>
+                                <footer class="slds-card__footer"style="height:100px">
+                                <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                                <span class="slds-assistive-text">Salesforce card</span>
+                                </a>
+                                </footer>
+                                </article>
+                        </span>
+                        </div>
+                        <div class="slds-col">
+                        <span>
+                            <article class="slds-card">
+                                <div class="slds-card__header slds-grid">
+                                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                               
+                               
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                                <span class="slds-assistive-text">account</span>
+                                </span>
+                                </div>
+                                <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                                <span><img src="C:\Users\MTX\Desktop\webDev\furniture.jpg"> </span>
+                                
+                                </a>
+                                </h2>
+                                </div>
+                                </header>
+                                </div>
+                                <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Furniture-40% & above.</b>
+                               <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti hic minus assumenda consequatur velit molestiae, ut obcaecati,
+                                 architecto magnam mollitia illum unde nemo. Dolore esse quod reprehenderit nihil accusantium aut?</div>
+                                <footer class="slds-card__footer"style="height:100px">
+                                <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                                <span class="slds-assistive-text">Salesforce card</span>
+                                </a>
+                                </footer>
+                                </article>
+                        </span>
+                        </div>
+                        <div class="slds-col">
+                        <span>
+                            <article class="slds-card">
+                                <div class="slds-card__header slds-grid">
+                                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                               
+                               
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                </svg>
+                                <span class="slds-assistive-text">account</span>
+                                </span>
+                                </div>
+                                <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                                <span><img src="C:\Users\MTX\Desktop\webDev\medicines.jpg"> </span>
+                                
+                                </a>
+                                </h2>
+                                </div>
+                                </header>
+                                </div>
+                                <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Medicines-10% off</b>
+                                <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores saepe neque doloremque quos
+                             veniam similique, ad distinctio officia, exercitationem maxime adipisci? Minima consequuntur enim nulla dignissimos et pariatur saepe?</div>
+                                <footer class="slds-card__footer"style="height:100px">
+                                <a class="slds-card__footer-action" href="javascript:void(0);">View All
+                                <span class="slds-assistive-text">Salesforce card</span>
+                                </a>
+                                </footer>
+                                </article>
+                        </span>
+                        </div>
+                        </div>
+                        <br>
+                        <div class="slds-grid slds-gutters slds-grid_align-space">
+                            <div class="slds-col">
+                            <span>
+                                <article class="slds-card">
+                                    <div class="slds-card__header slds-grid">
+                                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                    <div class="slds-media__figure">
+                                   
+                                   
+                                    <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">account</span>
+                                    </span>
+                                    </div>
+                                    <div class="slds-media__body ">
+                                    <h2 class="slds-card__header-title">
+                                    <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                                    <span><img src="C:\Users\MTX\Desktop\webDev\mobile.jpg"> </span>
+                                    
+                                    </a>
+                                    </h2>
+                                    </div>
+                                    </header>
+                                    </div>
+                                    <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Realme X</b>
+                                    <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores saepe neque doloremque quos
+                                 veniam similique, ad distinctio officia, exercitationem maxime adipisci? Minima consequuntur enim nulla dignissimos et pariatur saepe?</div>
+                                    <footer class="slds-card__footer"style="height:100px">
+                                        <button class="slds-button slds-button_outline-brand">Buy Now</button>
+                                        <div style="height: 5px;margin-top: 15px;">
+                                            <a class="slds-card__footer-action" href="javascript:void(0);" style="padding-bottom:15px;">View All
+                                                <span class="slds-assistive-text">Salesforce card</span>
+                                                </a></div>
+                                    </footer>
+                                    </article>
+                            </span>
+                            </div>
+                            <div class="slds-col">
+                            <span>
+                                <article class="slds-card">
+                                    <div class="slds-card__header slds-grid">
+                                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                    <div class="slds-media__figure">
+                                   
+                                   
+                                    <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">account</span>
+                                    </span>
+                                    </div>
+                                    <div class="slds-media__body">
+                                    <h2 class="slds-card__header-title">
+                                    <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                                    <span><img src="C:\Users\MTX\Desktop\webDev\watch.jpg"> </span>
+                                    
+                                    </a>
+                                    </h2>
+                                    </div>
+                                    </header>
+                                    </div>
+                                    <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Rider Watch</b>
+                                    <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores saepe neque doloremque quos
+                                 veniam similique, ad distinctio officia, exercitationem maxime adipisci? Minima consequuntur enim nulla dignissimos et pariatur saepe?</div>
+                                    <footer class="slds-card__footer"style="height:100px; ">
+                                        <button class="slds-button slds-button_outline-brand">Buy Now</button>
+                                        <div style="height: 5px;margin-top: 15px;">
+                                            <a class="slds-card__footer-action" href="javascript:void(0);" style="padding-bottom:15px;">View All
+                                                <span class="slds-assistive-text">Salesforce card</span>
+                                                </a></div>
+                                    
+                                    </footer>
+                                    </article>
+                            </span>
+                            </div>
+                            <div class="slds-col">
+                            <span>
+                                <article class="slds-card">
+                                    <div class="slds-card__header slds-grid">
+                                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                    <div class="slds-media__figure">
+                                   
+                                   
+                                    <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">account</span>
+                                    </span>
+                                    </div>
+                                    <div class="slds-media__body">
+                                    <h2 class="slds-card__header-title">
+                                    <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Accounts">
+                                    <span ><img  src="C:\Users\MTX\Desktop\webDev\Bag.jpg"> </span>
+                                    
+                                    </a>
+                                    </h2>
+                                    </div>
+                                    </header>
+                                    </div>
+                                    <div class="slds-card__body slds-card__body_inner "style="text-align:center"><b>Leather Bag</b>
+                                    <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores saepe neque doloremque quos
+                                 veniam similique, ad distinctio officia, exercitationem maxime adipisci? Minima consequuntur enim nulla dignissimos et pariatur saepe?</div>
+                                    <footer class="slds-card__footer"style="height:100px">
+                                        <button class="slds-button slds-button_outline-brand">Buy Now</button>
+                                        <div style="height: 5px;margin-top: 15px;">
+                                            <a class="slds-card__footer-action" href="javascript:void(0);" style="padding-bottom:15px;">View All
+                                                <span class="slds-assistive-text">Salesforce card</span>
+                                                </a></div>
+                                    </footer>
+                                    </article>
+                            </span>
+                            </div>
+                            </div>
+                        <div class="footer__styling">
+                            <p>Boomdeal</p><br>
+                            <i class="fa fa-instagram" style="font-size:28px;color:white"></i>
+                            <i class="fa fa-twitter" style="font-size:28px;color:white"></i>
+                          </div>
+    </body>
+</html>
